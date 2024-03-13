@@ -1,4 +1,4 @@
-<!-- Este é um comentário em HTML. -->
+!-- Este é um comentário em HTML. -->
 <!DOCTYPE HTML> <!-- Este é o DTD do HTML5. -->
 <!-- Document Type Definition é a instrução que vai orientar o browser a carregar o conjunto correto de bibliotecas da versão do HTMl em questão. -->
 
@@ -12,7 +12,37 @@
 	</head>
 	<!-- segundo filho do html = body -->
 	<body>
-		<h1>Exemplo de conteúdo estático.</h1>
-		<p>Eu sou um parágrafo.</p>
+
+		<div class="container">
+			<!-- O container é uma div que serve como contêiner geral para todo o conteúdo da página. -->
+			<header class="cabecalho">
+				<h1 style="text-align: center;">Minha Página</h1>
+				<nav>
+					<ul>
+						<li><a href="https://www.fiap.com.br" target="_blank"> FIAP</a></li>
+						<li><a href="https://www.google.com.br" target="_blank"> Google</a></li>
+						<li><a href="https://github.com/fmelods" target="_blank"> Github</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<section id="conteudo-principal">
+				<p>CONTEUDO...</p>
+		</section>
+
+		<footer class="rodape">
+
+			<nav>
+				<ul>
+					<li><a href="#">Item - 1</a></li>
+					<li><a href="#">Item - 2</a></li>
+					<li><a href="#">Item - 3</a></li>
+				</ul>
+			</nav>
+
+		</footer>
+
+	</div>
+
 	</body>
 </html>
