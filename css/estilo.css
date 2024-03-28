@@ -38,6 +38,10 @@ nav {
   padding: 20px;
 }
 
+#conteudo {
+  line-height: 1.5;
+}
+
 /*Seletores de classe*/
 .link {
   display: inline-block;
