@@ -42,6 +42,11 @@ nav {
   line-height: 1.5;
 }
 
+form {
+  border: solid 1px gray;
+  padding: 10px;
+}
+
 /*Seletores de classe*/
 .link {
   display: inline-block;
