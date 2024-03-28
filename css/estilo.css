@@ -51,6 +51,11 @@ p {
   color: green;
 }
 
+.button-contact-send {
+  background-color: blue;
+  color: white;
+}
+
 /*Seletores de classe*/
 .link {
   display: inline-block;
