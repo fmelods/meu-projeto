@@ -25,6 +25,11 @@ h1 {
   text-align: center;
 }
 
+h1,
+h2 {
+  font-family: serif;
+}
+
 /*Seletores de classe*/
 .link {
   display: inline-block;
