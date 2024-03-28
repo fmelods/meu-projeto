@@ -30,6 +30,10 @@ h2 {
   font-family: serif;
 }
 
+nav {
+  font-weight: bold;
+}
+
 /*Seletores de classe*/
 .link {
   display: inline-block;
