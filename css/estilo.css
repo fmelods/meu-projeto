@@ -56,6 +56,10 @@ p {
   color: white;
 }
 
+.rodape {
+  border-top: solid 2px red;
+}
+
 /*Seletores de classe*/
 .link {
   display: inline-block;
