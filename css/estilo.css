@@ -5,7 +5,7 @@ html {
   font-size: 16px;
 }
 
-#cabecalho {
+.cabecalho {
   font-size: 62.5%; /* 1rem = 10px */
 
   /*Exemplo de background-image*/
@@ -88,6 +88,6 @@ p {
 }
 
 /*Seletores de ID*/
-#menu ul {
+.menu ul {
   text-align: center;
 }
